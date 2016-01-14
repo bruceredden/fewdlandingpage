@@ -15,6 +15,7 @@ body { }   /* not necessary sytax */
     height: 4.375rem;*/
 
 
+/* border-box provides better responsive behaviour  */
 
 html {
   box-sizing: border-box;
@@ -28,7 +29,11 @@ html {
 .top-navigation {
     background-color: #fff;
     background-color: lightGray;
-}
+    /* position: fixed;   /* fix the top navigation bar */
+	width: 100%; 
+	/* z-index: 9999;  */
+	
+	}
 
 
 /* my top navigation is not responsive to screen size?  ... no responsivness  */
@@ -110,12 +115,50 @@ html {
 
 }
 
+/* three icon section */
 
 
-div {
-    border: 2px solid Chocolate;
+.threeicon h2 {
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+    text-align: center;
 }
 
+.threeicon .devices {
+    width: 100%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    /* border: 1px solid black;  */
+    box-sizing: border-box;
+    height: 4em;
+    padding: .5em;
+}
+
+.threeicon .devices > li {
+    width: 33.3333333%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align:  baseline;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+<1-- div {
+    border: 2px solid Chocolate;
+}
+-->
 
 
 
