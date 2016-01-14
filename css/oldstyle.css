@@ -1,0 +1,33 @@
+
+
+
+
+
+
+body {
+
+background-color: lightGray;
+
+/* Navigation Section 
+    width: 970px;
+    height: 70px; */
+.top-navigation {
+    background-color: #fff;
+}
+.top-navigation > .content {
+    width: 60rem;
+    height: 4.375rem;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+    
+}
+div {
+    border: 1px solid Chocolate;
+}

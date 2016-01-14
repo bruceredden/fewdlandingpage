@@ -1,0 +1,124 @@
+
+
+
+
+
+
+body { }   /* not necessary sytax */
+
+
+
+/* Navigation Section 
+    width: 970px;
+    height: 70px; 
+    width: 50rem;
+    height: 4.375rem;*/
+
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+.top-navigation {
+    background-color: #fff;
+    background-color: lightGray;
+}
+
+
+/* my top navigation is not responsive to screen size?  ... no responsivness  */
+.top-navigation > .content {
+    width: 100%;
+    max-width: 970px;   /* for responsive code */
+    height: 70px;
+    margin: 0 auto; 
+    /* margin-left: 1rem;  */
+    /* padding-left: 16px;  */
+    padding: 0px 16px;
+}
+
+.top-navigation .links {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-right: 25px;
+    -webkit-font-smoothing: antialiased;
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 25px; 
+}
+
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #D2206F;
+}
+
+.active > li {
+	display: inline-block;
+  /* Typography Declarations */
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #838994;
+    letter-spacing: 0.03em;
+    font-weight: bold;
+     }
+
+    .logo {
+    	    padding-top: 10px;
+    	    padding-bottom: 10px;
+    }
+
+
+/* mid section CSS */
+
+.introduction  {
+    background-image: url('../images/first-background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;         /* background-size COVER is more dynamic and responsive to screen changes  */
+    height: 45.938rem;
+}      
+
+.introduction .content {
+ 	color: #DCE04C;
+    font-weight: 500;
+    padding-left: 8px;
+    padding-bottom: 8px;
+	}
+
+.bigbutton {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    background-color: beige;
+    color: brown;
+
+}
+
+
+
+div {
+    border: 2px solid Chocolate;
+}
+
+
+
+
+
+
+
