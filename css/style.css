@@ -28,7 +28,6 @@ html {
 
 .top-navigation {
     background-color: #fff;
-    background-color: lightGray;
 	width: 100%; 
 	z-index: 9999;  
 	position: fixed;   /* fix the top navigation bar */  
@@ -61,9 +60,10 @@ html {
     margin-left: 25px; 
 }
 
-.top-navigation .links > .active {
+/*  .top-navigation .links > .active {  */
+.top-navigation .links li.active {
     color: #4c5058;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .top-navigation .links li:hover {
@@ -81,9 +81,10 @@ html {
     font-weight: bold;
      }
 
-    .logo {
+    .top-navigation .logo {
     	    padding-top: 10px;
     	    padding-bottom: 10px;
+    	    height: 4.375rem;
     }
 
 
@@ -99,7 +100,7 @@ html {
 }      
 
 .introduction .content {
- 	color: #DCE04C;
+ 	color: white;
     font-weight: 500;
     padding-left: 8px;
     padding-bottom: 8px;
@@ -114,7 +115,7 @@ html {
 }
 
 .introduction h3 {
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-family: Roboto, sans-serif ;
     font-weight: 300;
 }
@@ -126,8 +127,8 @@ html {
     border-radius: 4px;
     padding: 16px 26px;
     line-height: 1.33;
-    background-color: beige;
-    color: brown;
+    background-color: #f15a29;
+    color: white;
 
 }
 
