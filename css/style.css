@@ -25,10 +25,14 @@ html {
 }
 
 
+@media screen {
+font-size: 1.25 em;
+margin:   10px   1.5% ;
+}
+
 
 .top-navigation {
     background-color: #fff;
-    background-color: lightGray;
 	width: 100%; 
 	z-index: 9999;  
 	position: fixed;   /* fix the top navigation bar */  
@@ -99,7 +103,7 @@ html {
 }      
 
 .introduction .content {
- 	color: #DCE04C;
+ 	color: #fff;
     font-weight: 500;
     padding-left: 8px;
     padding-bottom: 8px;
@@ -114,7 +118,7 @@ html {
 }
 
 .introduction h3 {
-    font-size: 2rem;
+    font-size: 1.563rem;
     font-family: Roboto, sans-serif ;
     font-weight: 300;
 }
@@ -126,8 +130,8 @@ html {
     border-radius: 4px;
     padding: 16px 26px;
     line-height: 1.33;
-    background-color: beige;
-    color: brown;
+    background-color: #D66437;
+    color: white;
 
 }
 
